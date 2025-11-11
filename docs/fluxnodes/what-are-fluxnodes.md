@@ -44,7 +44,6 @@ Flux uses a **dual-reward model** for node operators:
 
 1. **Native FLUX Block Rewards**
    * Each block produces **14 FLUX**, split evenly:
-     * **37.5 FLUX** → Node operators
      * **1 FLUX** → to one Cumulus node
      * **3.5 FLUX** → to one Nimbus node
      * **9 FLUX** → to one Stratus node
