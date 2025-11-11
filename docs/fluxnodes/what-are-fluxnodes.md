@@ -43,15 +43,17 @@ FluxNodes are financially incentivized to remain online, meet performance benchm
 Flux uses a **dual-reward model** for node operators:
 
 1. **Native FLUX Block Rewards**
-   * Each block produces **75 FLUX**, split evenly:
+   * Each block produces **14 FLUX**, split evenly:
      * **37.5 FLUX** → Node operators
-     * **37.5 FLUX** → GPU miners
-   * Higher-tier nodes receive a proportionally larger share of the node reward pool.
+     * **1 FLUX** → to one Cumulus node
+     * **3.5 FLUX** → to one Nimbus node
+     * **9 FLUX** → to one Stratus node
+     * **0.5 FLUX** → to an ecosystem development fund allocated to the Flux Foundation
    * Live earnings statistics: [Flux Rewards Dashboard](https://home.runonflux.com/dashboard/rewards)
 2. **Parallel Mining Rewards**
    * In addition to native FLUX, node operators earn **parallel assets** (tokens on other blockchains such as ETH, BSC, KDA, SOL, etc.).
-   * For each parallel asset, **10% of the node reward** (≈ 3.75 FLUX worth) is distributed per block.
-   * Once all ten parallel assets are active, this totals **37.5 FLUX worth in parallel assets**, effectively **doubling total earnings**.
+   * For each parallel asset, **10% of the node reward** (≈ 1.35 FLUX worth) is distributed per block.
+   * Once all ten parallel assets are active, this totals **13.5 FLUX worth in parallel assets**, effectively **doubling total earnings**.
    * Parallel mining rewards are **not** automatically paid to your wallet — they must be manually claimed via the **Fusion** app in **Zelcore**. Follow this [guide](claim-parallel-assets.md) to learn more.
 
 #### Timeline & Retroactive Rewards
