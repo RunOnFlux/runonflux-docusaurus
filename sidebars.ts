@@ -117,6 +117,13 @@ const sidebars: SidebarsConfig = {
                     'fluxcloud/cloud/marketplace/wordpress/admin-setup',
                   ],
                 },
+                {
+                  type: 'category',
+                  label: 'Kaspa Nodes',
+                  items: [
+                    'fluxcloud/cloud/marketplace/kaspa-nodes/README',
+                  ],
+                },
               ],
             },
             {
