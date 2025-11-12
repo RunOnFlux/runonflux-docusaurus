@@ -15,7 +15,7 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 1. **Access FluxCloud**
    * Visit [cloud.runonflux.com](https://cloud.runonflux.com) and sign in or create an account.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 143234.jpg" alt=""/>
+<img src="/.gitbook/assets/FluxCloud_Login.jpg" alt=""/>
 
 2. **Find Kaspa Node**
 
@@ -23,14 +23,14 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 * Search for **Kaspa** and select the **KaspaNode** for Mainnet, or **KaspaTestnet** for Testnet.
   * Choose 16GB or 24GB depending on your budget, and usage of the node.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-15 121228.jpg" alt=""/>
+<img src="/.gitbook/assets/Marketplace_Applications_Kaspa.jpg" alt=""/>
 
 3. **Choose Subscription**
 
 * Select your preferred subscription duration (starting at **$27.20 per month**).
 * Agree to the **Terms of Service**, then click **Start Launching Marketplace App**.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-24 155823.jpg" alt=""/>
+<img src="/.gitbook/assets/KaspaNode_Install1.jpg" alt=""/>
 
 4. **Specify Your Deployment Location [Optional]**
 
@@ -38,6 +38,8 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 * By default your Kaspa node will be deployed on random servers globally 
 * Supported are continent, and additionally Country selection
 * Save your selection by clicking the **+ Add Allowed/Forbidden** button.
+
+<img src="/.gitbook/assets/KaspaNode_Install2.jpg" alt=""/>  
 
 5. **Email Notications [Optional]**
 
@@ -53,7 +55,7 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
   * Sign the message using the pop-up.
     * If you logged in via Google or Email, this step is completed automatically.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 143903.jpg" alt=""/>
+<img src="/.gitbook/assets/KaspaNode_Install3.jpg" alt=""/>
 
 7. **Complete Payment**
 
@@ -76,7 +78,7 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 > * [**Zelcore**](https://zelcore.io/) — supports the Kaspa ecosystem (Mainnet, Kasplex, Igra Labs)
 > * [**SSP Wallet**](https://sspwallet.io/) — multi-sig wallet for direct FLUX Mainnet payments
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 143945.jpg" alt=""/>
+<img src="/.gitbook/assets/KaspaNode_Install4.jpg" alt=""/>
 
 > With built-in auto-failover, FluxCloud is **redundant by design**. Each Kaspa Node deployment spins up **three independent nodes** that automatically fail over if needed, ensuring uptime and stronger decentralization — all for just **$27 a month**.
 
