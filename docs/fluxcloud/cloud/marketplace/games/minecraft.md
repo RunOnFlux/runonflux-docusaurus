@@ -10,7 +10,7 @@ This guide walks you through the process of **deploying, managing, and connectin
 
 1. **Access FluxCloud**
 
-* Visit [cloud.runonflux.com](https://cloud.runonflux.com) and sign in or create an account.\
+* Visit [cloud.runonflux.com](https://cloud.runonflux.com) and sign in or create an account.
 
 
 2. **Find the Minecraft Server**
