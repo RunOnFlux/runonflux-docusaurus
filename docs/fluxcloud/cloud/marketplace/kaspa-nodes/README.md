@@ -28,33 +28,39 @@ Deploying a Kaspa Node on FluxCloud allows you to participate in the Kaspa netwo
 3. **Choose Subscription**
 
 * Select your preferred subscription duration (starting at **$27.20 per month**).
-* Provide your Kaspa mainnet address to be ready for the Nacho Kat NFT Halloween Giveaway in collaboration with K.A.T.
 * Agree to the **Terms of Service**, then click **Start Launching Marketplace App**.
 
 <img src="/.gitbook/assets/Screenshot 2025-10-24 155823.jpg" alt=""/>
 
-4. **Sign Your App**
+4. **Specify Your Deployment Location [Optional]**
 
-* When the registration message appears, click **Next**.
-* Sign it using your chosen login method.
-* If you signed in via email, use the **Flux Single Sign-On** button.
+* Specify if you want to only allow certain geolocations to spawn your kapsa node or forbidd certain geolocations.
+* By default your Kaspa node will be deployed on random servers globally 
+* Supported are continent, and additionally Country selection
+* Save your selection by clicking the **+ Add Allowed/Forbidden** button.
 
-<img src="/.gitbook/assets/Screenshot 2025-10-10 143656 (1).jpg" alt=""/>
+5. **Email Notications [Optional]**
 
-5. **Register Your App**
+* Enter your email address to receive notifications about your game server, including:
+  * When your application finishes launching.
+  * When the primary server changes.
+  * When your app expiration date is approaching.
 
-* Review the **price summary** and click the **green Register button**.
-* Wait for registration to propagate across the Flux Blockchain, then click **Next** once Done.
+6. **Launching the Application**
+
+* Your application must be signed and registered on the Flux network.
+  * Click the **Sign and Register** button.
+  * Sign the message using the pop-up.
+    * If you logged in via Google or Email, this step is completed automatically.
 
 <img src="/.gitbook/assets/Screenshot 2025-10-10 143903.jpg" alt=""/>
 
-6. **Complete Payment**
+7. **Complete Payment**
 
 * Choose your payment method:
   * **Fiat:** Stripe or PayPal
   * **Crypto:** FLUX coin (5% discount)
-* After confirmation, your deployment is recorded on the Flux Blockchain and distributed globally.\
-  This process typically takes **10–30 minutes**, after which your node begins syncing automatically.⚠️ **Important: FLUX Payments**
+* Payment is monitored automatically. Once confirmed, your application will be deployed, and a blue Manage button will appear—directing you to your application’s management panel.
 
 > ⚠️ **Important: FLUX Payments**
 >
@@ -84,11 +90,11 @@ Once deployed, FluxCloud provides all the tools you need to monitor, update, and
 
 **How to Access**
 
-Applications → Management → Manage App → Local App Management → Logs
+Applications → Management → Manage App → Logs
 
 * Open the **Management** tab under **Applications**.
 * Select your KaspaNode from **My Active Apps** and click **Manage**.
-* In **Local App Management**, open the **Logs** tab.
+* Open the **Logs** tab.
 
 **Backend Selector**
 
@@ -131,11 +137,11 @@ You can connect to your Kaspa Node directly via its public IP and designated por
 
 **How to Find Node IPs:**
 
-Applications → Management → Manage App → Global App Management → Running Instances
+Applications → Management → Manage App → Running Instances
 
 * Open the **Management** tab under **Applications**.
 * Select your KaspaNode app and click **Manage**.
-* Under **Global App Management**, go to the **Running Instances** tab to view your node IPs.
+* Go to the **Running Instances** tab to view your node IPs.
 
 **Port Usage:**
 
@@ -178,7 +184,7 @@ Applications → Management → Manage App → Global App Management → Update/
 
 * Open the **Management** tab under **Applications**.
 * Select your KaspaNode app from **My Active Apps** and click **Manage**.
-* In **Global App Management**, open the **Update/Renew** tab to extend your subscription or update configurations.
+* Open the **Subscription** tab to extend your subscription or update configurations.
 
 **Learn More**
 
@@ -186,42 +192,3 @@ For detailed management instructions, visit the official documentation:\
 [Flux Docs – Update & Renew](https://docs.runonflux.com/flux/fluxcloud/home/applications/management/manage-app/global-app-management/update-renew)
 
 <img src="/.gitbook/assets/Screenshot 2025-10-10 145222.jpg" alt=""/>
-
-***
-
-### Update Your Existing Deployment for the Nacho Kat NFT Giveaway
-
-**How to Access**
-
-> **Applications → Management →  My Active Apps → Manage App**
-
-1. Visit [home.runonflux.io](https://home.runonflux.io) and sign in to your account.
-2. Open the **Applications** menu and select the **Management** tab.
-3. Under **My Active Apps**, find your **KaspaNode** deployment and click **Manage**.
-4. In **Global App Management**, open the **Update/Renew** tab to modify your configuration or extend your subscription.
-
-**Update Your Node for the NFT Giveaway**
-
-1. **Toggle OFF** “Extend Subscription” if you do **not** wish to renew your subscription period.
-2. **Toggle ON** “Update Specifications” and scroll down to the **Component: kaspad** section.
-
-<img src="/.gitbook/assets/Screenshot 2025-10-24 161918.jpg" alt=""/>
-
-3. In the **Environment user** field, replace the existing value `[]` with your Kaspa address in JSON format:
-
-```json
-["kaspa:qzqud95ytp3dkpp76tukjfr7s0f6xewh9ujljkegwvqglyjvhkchxpsf5fmkz"]
-```
-
-> ⚠️ **Important:** Make sure your address is enclosed in both **quotes** and **square brackets** to maintain proper JSON formatting.
-
-<img src="/.gitbook/assets/Screenshot 2025-10-24 161936.jpg" alt=""/>
-
-4. Scroll down, toggle **Agree to Terms of Service**, and click **Compute Update Message**.
-5. Sign the update message using your chosen login method.
-
-* If you signed in via email, use the **Flux Single Sign-On** button.
-
-6. Once your signature appears in the signature field, click **Update Application**.
-
-If you did **not** enable “Extend Subscription,” this update is **free** and will be applied automatically within approximately **30 minutes**. If you **did** extend your subscription, you will be prompted to complete payment before the update is finalized.
